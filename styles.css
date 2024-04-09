@@ -1,42 +1,131 @@
 .header {
+    background: #1F2937;
+    height: 1000px;
+}
+
+.navbar {
     display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
     padding: 0px;
     text-align: left;
-    margin-right: auto;
-    background: #1F2937;
     color: white;
-    font-size: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    flex-basis: 360px;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    height: 300px;
+    border-style: solid;
+    border-color: red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: space-between;
+}
+
+.hero1 {
+    display: column;
+    width: 450px;
+    border-style: solid;
+    border-color: red;
+}
+
+.herohead {
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.herodesc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroimage {
+    background-color: #E5E7EB;
+    width: 450px;
+    opacity: 10;
+    text-align: center;
+}
+
+.signup {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    height: 30px;
+    width: 125px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero2 {
+    background-color: white;
 }
 
 .mid {
+    display: block;
+    height: 400px;
+    width: auto;
+    background-color: #F9FAF8;
+}
+
+.midheader {
+    font-size: 36px;
     display: flex;
-    padding: 0px;
-    text-align: left;
-    margin-right: auto;
-    background: #1F2937;
-    color: white;
-    font-size: 10px;
+    justify-content: center;
+    padding: 20px;
 
 }
 
-.testimonial {
+.boxes {
     display: flex;
+    flex-direction: row;
+    flex-basis: auto;
     padding: 0px;
-    text-align: left;
-    margin-right: auto;
-    background: #1F2937;
-    color: white;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box {
+    width: 125px;
+    height: 125px;
+    border: 5px solid;
+    color: #3882F6;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    border-radius: 15px;;
+}
+
+.testimonial {
+    display: block;
+    background: #E5E7EB;
+    color: #E5E7EB;
     font-size: 10px;
+    height: 400px;
 
 }
 
 .footer {
+    height: 300px;
     display: flex;
-    padding: 0px;
-    text-align: left;
-    margin-right: auto;
-    background: #1F2937;
     color: white;
-    font-size: 10px;
 
 }
