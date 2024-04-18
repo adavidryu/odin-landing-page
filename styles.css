@@ -1,23 +1,29 @@
-/* Header */
-header {
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Header */
+  header {
     display: flex;
     justify-content: space-between;
     height: 150px;
     flex-basis: 1000px;
     background: #1F2937;
-    padding: 0;
-    margin: 0;
+    padding-top: 20px;
     text-align: left;
-}
-
-.logo {
+  }
+  
+  .logo {
     margin-left: 200px;
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
-}
-
-ul {
+  }
+  
+  header ul {
     display: flex;
     justify-content: space-between;
     flex-basis: 360px;
@@ -26,60 +32,64 @@ ul {
     margin-right: 200px;
     font-size: 18px;
     color: #E5E7EB;
-}
+  }
 
-/* Top Section */
-.top {
+  header nav ul li {
+    margin-left: 16px; /* Added spacing between nav links */
+  }
+  
+  /* Top Section */
+  .top {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    height: 400px;
-}
-
-/* Hero Section */
-.hero {
+    height: 375px;
+  }
+  
+  /* Hero Section */
+  .hero {
     display: flex;
     justify-content: space-between;
     height: 250px;
     margin-left: 200px;
     margin-right: 200px;
-}
-
-.hero1 {
+  }
+  
+  .hero1 {
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
     flex-grow: 0;
     flex-shrink: 1;
-}
-
-h2 {
+  }
+  
+  .hero1 h2 {
     margin: 0;
-}
-
-.herohead {
+  }
+  
+  .herohead {
     margin: 0;
     font-size: 48px;
     color: #F9FAF8;
-}
-
-.herodesc {
+  }
+  
+  .herodesc {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.heroimage {
+  }
+  
+  .heroimage {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
     opacity: 0.4;
     flex-basis: 525px;
-}
-
-.signup {
+  }
+  
+  .signup {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,49 +98,49 @@ h2 {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
-}
-
-.hero2 {
+  }
+  
+  .hero2 {
     background-color: white;
-}
-
-/* Mid Section */
-.mid {
+  }
+  
+  /* Mid Section */
+  .mid {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 525px;
     width: auto;
     background-color: #F9FAF8;
-}
-
-.midheader {
+  }
+  
+  .midheader {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
     font-size: 36px;
-}
-
-/* Box Group */
-.boxgroup {
+  }
+  
+  /* Box Group */
+  .boxgroup {
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
     padding: 0;
     width: 850px;
-}
-
-.box {
+  }
+  
+  .box {
     width: 175px;
     height: 175px;
     border: 4px solid;
     border-radius: 15px;
     color: #3882F6;
-}
-
-/* Label Group */
-.labelgroup {
+  }
+  
+  /* Label Group */
+  .labelgroup {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -138,48 +148,74 @@ h2 {
     margin-right: 150px;
     padding: 0;
     width: 850px;
-}
-
-.label {
+  }
+  
+  .label {
     display: flex;
     flex-basis: 175px;
     text-align: center;
     font-size: 18px;
     color: #1F2937;
-}
-
-/* Lower Section */
-.lower {
+  }
+  
+  /* Lower Section */
+  .lower {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #E5E7EB;
     height: 450px;
-}
-
-/* Testimonial Section */
-.testimonial {
+  }
+  
+  /* Testimonial Section */
+  .testimonial {
     display: flex;
     flex-wrap: wrap;
     width: 785px;
-}
-
-.quote {
+  }
+  
+  .quote {
     width: 785px;
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
-}
-
-.author {
+  }
+  
+  .author {
     margin-left: auto;
     font-size: 24px;
     color: #1F2937;
-}
-
-/* Footer */
-footer {
+  }
+  
+  /* Footer */
+  footer {
     display: flex;
     color: white;
     height: 300px;
-}
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ctabox {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  
+  .signup2 {
+    height: 35px;
+    width: 130px;
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+  }
