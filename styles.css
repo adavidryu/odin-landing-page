@@ -1,21 +1,18 @@
-.header {
+header {
     background: #1F2937;
-    height: 1000px;
-}
-
-.navbar {
+    height: 150px;
     display: flex;
-    flex-basis: auto;
     justify-content: space-between;
+    flex-basis: 1000px;
     padding: 0px;
     text-align: left;
-    color: white;
+    margin: 0px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 250px;
+    margin-left: 200px;
     margin-right: auto;
 }
 
@@ -25,53 +22,68 @@ ul {
     display: flex;
     flex-basis: 360px;
     justify-content: space-between;
-    margin-right: 250px;
+    margin-right: 200px;
     margin-left: auto;
+    color: #E5E7EB
 }
 
+.top {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
 .hero {
     display: flex;
-    height: 300px;
-    border-style: solid;
-    border-color: red;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 250px;
-    margin-right: 250px;
     justify-content: space-between;
+    flex-basis: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 250px
 }
 
 .hero1 {
     display: column;
-    width: 450px;
-    border-style: solid;
-    border-color: red;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 450px;
+}
+
+h2 {
+    margin: 0px;
 }
 
 .herohead {
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0px;
 }
 
 .herodesc {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .heroimage {
+    display: flex;
     background-color: #E5E7EB;
-    width: 450px;
-    opacity: 10;
-    text-align: center;
+    opacity: 0.4;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 525px;
 }
 
 .signup {
+    display: flex;
     color: #E5E7EB;
     background-color: #3882F6;
     height: 30px;
     width: 125px;
-    text-align: center;
+    justify-content: center;
     border-radius: 5px;
+    align-items: center;
 }
 
 .hero2 {
@@ -79,10 +91,12 @@ ul {
 }
 
 .mid {
-    display: block;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 525px;
     width: auto;
     background-color: #F9FAF8;
+    align-items: center;
 }
 
 .midheader {
@@ -93,37 +107,69 @@ ul {
 
 }
 
-.boxes {
+.boxgroup {
     display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    padding: 0px;
     justify-content: space-between;
+    width: 850px;
+    padding: 0px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .box {
-    width: 125px;
-    height: 125px;
-    border: 5px solid;
+    width: 175px;
+    height: 175px;
+    border: 4px solid;
     color: #3882F6;
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-wrap: wrap;
-    border-radius: 15px;;
+    border-radius: 15px;
+}
+
+.labelgroup {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.label {
+    display: flex;
+    flex-basis: 175px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.lower {
+    display: flex;
+    background: #E5E7EB;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonial {
-    display: block;
-    background: #E5E7EB;
-    color: #E5E7EB;
-    font-size: 10px;
-    height: 400px;
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 785px;
 }
 
-.footer {
+.quote {
+    width: 785px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+footer {
     height: 300px;
     display: flex;
     color: white;
